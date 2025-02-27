@@ -28,7 +28,7 @@ const userschema=({
         required:true
     },
     
-},{ timestamp:true}
+},{ timestamps:true}
 )
 const User =mongoose.model("Users",userschema)
 
