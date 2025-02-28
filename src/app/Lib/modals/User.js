@@ -28,8 +28,9 @@ const userschema=({
         required:true
     },
     
-},{ timestamps:true}
+},
+{ timestamps: true }
 )
-const User =mongoose.model("Users",userschema)
+const User =mongoose.models.User || mongoose.model("Users",userschema)
 
 export default User

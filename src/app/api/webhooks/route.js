@@ -80,7 +80,7 @@ export async function POST(req) {
         }
       }
     } catch (error) {
-      console.log('Error creating or updating user:', error);
+      console.log('Error creating or updating user:', errossssssssssr);
       return new Response('Error occured', {
         status: 400,
       });
